@@ -1,6 +1,6 @@
 /**
  * Card.java
- *TEST
+ *
  * <code>Card</code> represents a playing card.
  */
 public class Card {
@@ -16,7 +16,7 @@ public class Card {
 	private String rank;
 
 	/**
-	 * int value that holds the point value.
+	 * int value that holds the point value.kjsdbhksdbhkdsfkh
 	 */
 	private int pointValue;
 
