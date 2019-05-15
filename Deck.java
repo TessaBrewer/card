@@ -3,7 +3,7 @@ public class Deck
 {
 	private Card[] deck;
 	
-	public Deck(String[] ranks, String[] suits, int[] pointValues)
+	public Deck(String[] suits, String[] ranks, int[] pointValues)
 	{
 		deck = new Card[suits.length * ranks.length];
 		for(int i = 0; i < deck.length; i++)
