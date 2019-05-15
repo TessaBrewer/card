@@ -8,7 +8,7 @@ public class Deck
 		deck = new Card[suits.length * ranks.length];
 		for(int i = 0; i < deck.length; i++)
 		{
-			deck[i] = new Card(ranks[i % suits.length], suits[i % ranks.length], pointValues[i % suits.length]);
+			deck[i] = new Card(ranks[i % ranks.length], suits[i / ranks.length], pointValues[i % ranks.length]);
 		}
 	}
 	
